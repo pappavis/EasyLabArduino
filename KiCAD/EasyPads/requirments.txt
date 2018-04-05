@@ -1,0 +1,43 @@
+Hi!
+
+I have a possible new request for you.
+
+The basic idea is to easily connect sensors to the Arduino Nano using only crocodile clips.
+I need a breakoutboard for Arduino Nano with the BBC Microbit-like copper connections.
+Ideally it must be dual purpose to fit both Nano and Uno.
+
+It must be possible to connect LEDs onto the output pins much like connecting D13 + GND.
+Also, support for 3x Grove connectors on the board.
+Smal size like <=10cm x 8cm sum thing like that.
+
+I can send u a sorta hand drawn outline.
+Can u send me a offer?
+----------------------------------------------------
+Hi! sorry for the delay. I need an addition to EasyLab4Kids, which I will call EasyPads using the copper connectors u designed previously. Each pad could be purposed to one sensor.. For example aEasyPad for PIR sensor, another for Sonar sensor or even a TM1637 LED display pad.
+It must be easy for even a kid to connect cheap Chinese sensors bought from AliExpress.
+
+There should/could be different pads for different sensors, ideally generic.
+Seeedstudio has Grove connectors but those are expensive.
+
+It should be idiot proof. So if sum1 connects a 5v crocodile clip to a digital or analoge, then the sensor must be fried. Is that possible?
+
+The PCB should be double sided, no SMDs.. as I need to solder myself.
+Each pad must have
+* at least 4x Microbit copper connectors, (5v, GND, 2x IO)
+* Angled female connectors with at least 4x pins, so one can for example connect PIR / Sonar / line tracker
+* Groove connector
+* size.. about 3cm x 2,5cm.. but can be larger if design requires it.
+* NICE To have.. idiot proof. So kids don't blowup the sensors
+* NICE to have.. connect a LED without need for resistors, much like Arduino pin 13.
+* NICE to have.. at least 2x EasyPads per PCB, with a very very small break in between them, so I can receive them from china and separate like perforation in envelope, thats gonna. save me €'s.
+
+The EasyPads should be useable on Raspberry Pi 3, Beaglebone black, Arduino's etc.
+Primary it will be used with EasyLab4Kids which u designed in Jan-2017.
+
+When must be ready? I need to have it made in China <=10-march-2017.
+
+Can u make it?
+Can u send me an offer?
+
+grtz,
+Michiel Erasmus

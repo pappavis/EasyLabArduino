@@ -1,0 +1,19 @@
+### Module positions - created on 11/10/17 18:02:23 ###
+### Printed by Pcbnew version kicad 4.0.4-stable
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val           Package                              PosX       PosY       Rot  Side
+C1        100uF         C_0805_HandSoldering             145.6200   -71.4800  180.0000  top
+C2        10uF/16V      C_0805_HandSoldering             161.2200   -64.8800  270.0000  top
+C3        10uF          C_0805_HandSoldering             145.6200   -73.5800  180.0000  top
+P14       SolderJumper  SolderJumper                     130.3000   -78.3500  180.0000  top
+P15       SolderJumper  SolderJumper                     130.3000   -76.6000  180.0000  top
+R1        10K           C_0805_HandSoldering             170.4000   -71.1000  180.0000  top
+R2        330           C_0805_HandSoldering             112.3200   -62.8800    0.0000  top
+R3        330           C_0805_HandSoldering             119.4200   -62.8800    0.0000  top
+R4        330           C_0805_HandSoldering             126.3200   -62.8800    0.0000  top
+R5        10K           C_0805_HandSoldering             139.1200   -71.4800    0.0000  top
+R6        10K           C_0805_HandSoldering             139.1200   -73.5800    0.0000  top
+U4        L293D_SMD     SOIC-20_7.5x12.8mm_Pitch1.27mm   166.6200   -91.3800    0.0000  top
+U5        AP1117        SOT-223                          154.3500   -64.6500   90.0000  top
+## End

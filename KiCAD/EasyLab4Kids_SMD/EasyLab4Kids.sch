@@ -1,0 +1,1064 @@
+EESchema Schematic File Version 2
+LIBS:EasyLab4Kids-rescue
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:w_connectors
+LIBS:ESP8266
+LIBS:EasyLab4Kids-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Easy Lab for Kids"
+Date "2017-09-16"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Arduino_Nano_Header J1
+U 1 1 58732CF5
+P 1710 3780
+F 0 "J1" H 1710 4580 60  0000 C CNN
+F 1 "Arduino_Nano_Header" H 1710 2980 60  0000 C CNN
+F 2 "EasyLabs4Kids:arduino_nano_header" H 1710 3780 60  0001 C CNN
+F 3 "" H 1710 3780 60  0000 C CNN
+	1    1710 3780
+	1    0    0    -1  
+$EndComp
+$Comp
+L ESP-01v090 U3
+U 1 1 58732E5F
+P 4900 3490
+F 0 "U3" H 4900 3110 50  0000 C CNN
+F 1 "ESP-01v090" H 4880 3900 50  0000 C CNN
+F 2 "EasyLabs4Kids:ESP-01_SilkScreen" H 4900 3490 50  0001 C CNN
+F 3 "" H 4900 3490 50  0001 C CNN
+	1    4900 3490
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED-RESCUE-EasyLab4Kids D1
+U 1 1 587332C7
+P 8320 5140
+F 0 "D1" H 8320 5240 50  0000 C CNN
+F 1 "Red" H 8320 5040 50  0000 C CNN
+F 2 "EasyLabs4Kids:LED-5MM" H 8320 5140 50  0001 C CNN
+F 3 "" H 8320 5140 50  0000 C CNN
+	1    8320 5140
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED-RESCUE-EasyLab4Kids D2
+U 1 1 58733389
+P 8330 5440
+F 0 "D2" H 8330 5540 50  0000 C CNN
+F 1 "Green" H 8330 5340 50  0000 C CNN
+F 2 "EasyLabs4Kids:LED-5MM" H 8330 5440 50  0001 C CNN
+F 3 "" H 8330 5440 50  0000 C CNN
+	1    8330 5440
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED-RESCUE-EasyLab4Kids D3
+U 1 1 587333B0
+P 8330 5740
+F 0 "D3" H 8330 5840 50  0000 C CNN
+F 1 "Blue" H 8330 5640 50  0000 C CNN
+F 2 "EasyLabs4Kids:LED-5MM" H 8330 5740 50  0001 C CNN
+F 3 "" H 8330 5740 50  0000 C CNN
+	1    8330 5740
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R2
+U 1 1 5873348D
+P 8770 5140
+F 0 "R2" V 8850 5140 50  0000 C CNN
+F 1 "330" V 8770 5140 50  0000 C CNN
+F 2 "EasyLabs4Kids:C_0805_HandSoldering" V 8700 5140 50  0001 C CNN
+F 3 "" H 8770 5140 50  0000 C CNN
+	1    8770 5140
+	0    1    1    0   
+$EndComp
+$Comp
+L R R3
+U 1 1 587334DD
+P 8770 5440
+F 0 "R3" V 8850 5440 50  0000 C CNN
+F 1 "330" V 8770 5440 50  0000 C CNN
+F 2 "EasyLabs4Kids:C_0805_HandSoldering" V 8700 5440 50  0001 C CNN
+F 3 "" H 8770 5440 50  0000 C CNN
+	1    8770 5440
+	0    1    1    0   
+$EndComp
+$Comp
+L R R4
+U 1 1 58733515
+P 8780 5740
+F 0 "R4" V 8860 5740 50  0000 C CNN
+F 1 "330" V 8780 5740 50  0000 C CNN
+F 2 "EasyLabs4Kids:C_0805_HandSoldering" V 8710 5740 50  0001 C CNN
+F 3 "" H 8780 5740 50  0000 C CNN
+	1    8780 5740
+	0    1    1    0   
+$EndComp
+$Comp
+L SW_PUSH SW1
+U 1 1 587335C7
+P 1820 5330
+F 0 "SW1" H 1970 5440 50  0000 C CNN
+F 1 "SW_PUSH" H 1820 5250 50  0000 C CNN
+F 2 "EasyLabs4Kids:PCB_PUSH_edit" H 1820 5330 50  0001 C CNN
+F 3 "" H 1820 5330 50  0000 C CNN
+	1    1820 5330
+	1    0    0    -1  
+$EndComp
+$Comp
+L KY-033 U1
+U 1 1 5873389F
+P 1510 6430
+F 0 "U1" H 1410 6680 60  0000 C CNN
+F 1 "KY-033_L" H 1460 6180 60  0000 C CNN
+F 2 "EasyLabs4Kids:Pin_Header_Straight_1x03" H 1510 6430 60  0001 C CNN
+F 3 "" H 1510 6430 60  0001 C CNN
+	1    1510 6430
+	1    0    0    -1  
+$EndComp
+$Comp
+L KY-033 U2
+U 1 1 5873398C
+P 1510 7080
+F 0 "U2" H 1410 7330 60  0000 C CNN
+F 1 "KY-033_R" H 1460 6830 60  0000 C CNN
+F 2 "EasyLabs4Kids:Pin_Header_Straight_1x03" H 1510 7080 60  0001 C CNN
+F 3 "" H 1510 7080 60  0001 C CNN
+	1    1510 7080
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03 P8
+U 1 1 58733A2B
+P 8330 3280
+F 0 "P8" H 8330 3480 50  0000 C CNN
+F 1 "Servo" V 8430 3280 50  0000 C CNN
+F 2 "EasyLabs4Kids:Pin_Header_Straight_1x03" H 8330 3280 50  0001 C CNN
+F 3 "" H 8330 3280 50  0000 C CNN
+	1    8330 3280
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 P11
+U 1 1 58733B46
+P 4770 6340
+F 0 "P11" H 4770 6490 50  0000 C CNN
+F 1 "M1" V 4870 6340 50  0000 C CNN
+F 2 "EasyLabs4Kids:mkds_1,5-2" H 4770 6340 50  0001 C CNN
+F 3 "" H 4770 6340 50  0000 C CNN
+	1    4770 6340
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 P12
+U 1 1 58733D06
+P 4770 6690
+F 0 "P12" H 4770 6840 50  0000 C CNN
+F 1 "M2" V 4870 6690 50  0000 C CNN
+F 2 "EasyLabs4Kids:mkds_1,5-2" H 4770 6690 50  0001 C CNN
+F 3 "" H 4770 6690 50  0000 C CNN
+	1    4770 6690
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_01X04 P9
+U 1 1 5873424E
+P 8330 3880
+F 0 "P9" H 8330 4130 50  0000 C CNN
+F 1 "IO" V 8430 3880 50  0000 C CNN
+F 2 "EasyLabs4Kids:Pin_Header_Straight_1x04" H 8330 3880 50  0001 C CNN
+F 3 "" H 8330 3880 50  0000 C CNN
+	1    8330 3880
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR01
+U 1 1 58736680
+P 710 3380
+F 0 "#PWR01" H 710 3130 50  0001 C CNN
+F 1 "GND" H 710 3230 50  0000 C CNN
+F 2 "" H 710 3380 50  0000 C CNN
+F 3 "" H 710 3380 50  0000 C CNN
+	1    710  3380
+	1    0    0    -1  
+$EndComp
+Text Label 760  3380 0    60   ~ 0
+GND
+Text Label 2360 3180 0    60   ~ 0
+GND
+Text Label 2360 3080 0    60   ~ 0
+12V
+NoConn ~ 2060 3280
+NoConn ~ 1360 3280
+Text Label 2360 3380 0    60   ~ 0
+5V
+NoConn ~ 2060 4280
+Text Label 6980 3340 0    60   ~ 0
+3V3
+Text Label 6150 3640 0    60   ~ 0
+RX
+Text Label 3700 3340 0    60   ~ 0
+TX
+NoConn ~ 3950 3440
+NoConn ~ 3950 3540
+$Comp
+L GND #PWR02
+U 1 1 5873A0BF
+P 3950 3740
+F 0 "#PWR02" H 3950 3490 50  0001 C CNN
+F 1 "GND" H 3950 3590 50  0000 C CNN
+F 2 "" H 3950 3740 50  0000 C CNN
+F 3 "" H 3950 3740 50  0000 C CNN
+	1    3950 3740
+	1    0    0    -1  
+$EndComp
+Text Label 1110 4380 0    60   ~ 0
+TX
+Text Label 1110 4480 0    60   ~ 0
+RX
+$Comp
+L R R5
+U 1 1 5873DEA8
+P 6100 3440
+F 0 "R5" V 6060 3270 50  0000 C CNN
+F 1 "10K" V 6100 3440 50  0000 C CNN
+F 2 "EasyLabs4Kids:C_0805_HandSoldering" V 6030 3440 50  0001 C CNN
+F 3 "" H 6100 3440 50  0000 C CNN
+	1    6100 3440
+	0    1    1    0   
+$EndComp
+$Comp
+L R R6
+U 1 1 5873E035
+P 6450 3540
+F 0 "R6" V 6530 3540 50  0000 C CNN
+F 1 "10K" V 6450 3540 50  0000 C CNN
+F 2 "EasyLabs4Kids:C_0805_HandSoldering" V 6380 3540 50  0001 C CNN
+F 3 "" H 6450 3540 50  0000 C CNN
+	1    6450 3540
+	0    1    1    0   
+$EndComp
+Text Label 1960 6430 0    60   ~ 0
+5V
+Text Label 1960 7080 0    60   ~ 0
+5V
+Text Label 1960 6530 0    60   ~ 0
+GND
+Text Label 1960 7180 0    60   ~ 0
+GND
+Text Label 1960 6330 0    60   ~ 0
+LF_L
+Text Label 2310 4080 0    60   ~ 0
+LF_L
+Text Label 1960 6980 0    60   ~ 0
+LF_R
+Text Label 1110 4080 0    60   ~ 0
+LF_R
+Text Notes 8510 2380 0    60   ~ 0
+Note:\nPin Functions\nDigital\n0: IO header\n1: IO header\n2: tactile sw\n3: left motor 1\n4: Blue Led\n5: left motor 2\n6: right motor 1\n7: Green LED\n8: Line sensor right\n9: right motor 2\n10: servo\n11: tx esp\n12: rx esp\n13: Grove io
+Text Label 8780 3280 0    60   ~ 0
+5V
+Text Label 8780 3380 0    60   ~ 0
+GND
+Text Label 1110 4280 0    60   ~ 0
+Servo
+Text Label 1110 3580 0    60   ~ 0
+1A
+Text Label 1110 3780 0    60   ~ 0
+2A
+Text Label 1110 4180 0    60   ~ 0
+3A
+Text Label 1110 3880 0    60   ~ 0
+4A
+Text Label 1110 3480 0    60   ~ 0
+SW
+Text Label 8680 3930 0    60   ~ 0
+5V
+Text Label 8680 4030 0    60   ~ 0
+GND
+Text Label 2310 3780 0    60   ~ 0
+SDA
+Text Label 2310 4180 0    60   ~ 0
+Red
+Text Label 1110 3980 0    60   ~ 0
+Green
+Text Label 1110 3680 0    60   ~ 0
+Blue
+Text Label 2310 3680 0    60   ~ 0
+SCL
+Text Label 2310 3980 0    60   ~ 0
+A2
+$Comp
+L R R1
+U 1 1 58748B95
+P 1220 5330
+F 0 "R1" V 1300 5330 50  0000 C CNN
+F 1 "10K" V 1220 5330 50  0000 C CNN
+F 2 "EasyLabs4Kids:C_0805_HandSoldering" V 1150 5330 50  0001 C CNN
+F 3 "" H 1220 5330 50  0000 C CNN
+	1    1220 5330
+	0    -1   -1   0   
+$EndComp
+Text Label 860  5330 0    60   ~ 0
+5V
+Text Label 1270 5090 0    60   ~ 0
+SW
+$Comp
+L GND #PWR03
+U 1 1 5874977F
+P 9050 5960
+F 0 "#PWR03" H 9050 5710 50  0001 C CNN
+F 1 "GND" H 9050 5810 50  0000 C CNN
+F 2 "" H 9050 5960 50  0000 C CNN
+F 3 "" H 9050 5960 50  0000 C CNN
+	1    9050 5960
+	1    0    0    -1  
+$EndComp
+Text Label 7910 5140 0    60   ~ 0
+Red
+Text Label 7910 5440 0    60   ~ 0
+Green
+Text Label 7910 5740 0    60   ~ 0
+Blue
+$Comp
+L CONN_01X01 P1
+U 1 1 5874A3DB
+P 9780 3210
+F 0 "P1" H 9780 3310 50  0000 C CNN
+F 1 "3.3V" V 9880 3210 50  0000 C CNN
+F 2 "EasyLabs4Kids:BBC_CONNECTOR" H 9780 3210 50  0001 C CNN
+F 3 "" H 9780 3210 50  0000 C CNN
+	1    9780 3210
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X01 P2
+U 1 1 5874A4E1
+P 9780 3420
+F 0 "P2" H 9780 3520 50  0000 C CNN
+F 1 "5V" V 9880 3420 50  0000 C CNN
+F 2 "EasyLabs4Kids:BBC_CONNECTOR" H 9780 3420 50  0001 C CNN
+F 3 "" H 9780 3420 50  0000 C CNN
+	1    9780 3420
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X01 P4
+U 1 1 5874A57F
+P 9780 3840
+F 0 "P4" H 9780 3940 50  0000 C CNN
+F 1 "D" V 9880 3840 50  0000 C CNN
+F 2 "EasyLabs4Kids:BBC_CONNECTOR" H 9780 3840 50  0001 C CNN
+F 3 "" H 9780 3840 50  0000 C CNN
+	1    9780 3840
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X01 P5
+U 1 1 5874A5FE
+P 9780 4070
+F 0 "P5" H 9780 4170 50  0000 C CNN
+F 1 "A" V 9880 4070 50  0000 C CNN
+F 2 "EasyLabs4Kids:BBC_CONNECTOR" H 9780 4070 50  0001 C CNN
+F 3 "" H 9780 4070 50  0000 C CNN
+	1    9780 4070
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X01 P7
+U 1 1 5874A707
+P 9780 4930
+F 0 "P7" H 9780 5030 50  0000 C CNN
+F 1 "GND" V 9880 4930 50  0000 C CNN
+F 2 "EasyLabs4Kids:BBC_CONNECTOR" H 9780 4930 50  0001 C CNN
+F 3 "" H 9780 4930 50  0000 C CNN
+	1    9780 4930
+	-1   0    0    1   
+$EndComp
+Text Label 10230 4930 0    60   ~ 0
+GND
+Text Label 10230 3420 0    60   ~ 0
+5V
+Text Label 10230 3840 0    60   ~ 0
+A2
+Text Label 10230 3210 0    60   ~ 0
+3V3
+Text Label 2310 3480 0    60   ~ 0
+A7
+Text Label 2310 3580 0    60   ~ 0
+A6
+Text Label 10230 4300 0    60   ~ 0
+A7
+Text Label 10230 4070 0    60   ~ 0
+A6
+Text Label 2360 4480 0    60   ~ 0
+GroveIO
+$Comp
+L CONN_01X04 P10
+U 1 1 5874E60E
+P 8330 4430
+F 0 "P10" H 8330 4680 50  0000 C CNN
+F 1 "Grove" V 8430 4430 50  0000 C CNN
+F 2 "EasyLabs4Kids:grove_1x04" H 8330 4430 50  0001 C CNN
+F 3 "" H 8330 4430 50  0000 C CNN
+	1    8330 4430
+	-1   0    0    -1  
+$EndComp
+Text Label 8680 4480 0    60   ~ 0
+5V
+Text Label 8680 4580 0    60   ~ 0
+GND
+Text Label 8680 4280 0    60   ~ 0
+GroveIO
+NoConn ~ 8530 4380
+Text Label 8780 3180 0    60   ~ 0
+Servo
+Text Label 8680 3830 0    60   ~ 0
+D0
+Text Label 8680 3730 0    60   ~ 0
+D1
+Text Label 1110 3080 0    60   ~ 0
+D1
+Text Label 1110 3180 0    60   ~ 0
+D0
+$Comp
+L CONN_01X01 P6
+U 1 1 58751893
+P 9780 4300
+F 0 "P6" H 9780 4400 50  0000 C CNN
+F 1 "A" V 9880 4300 50  0000 C CNN
+F 2 "EasyLabs4Kids:BBC_CONNECTOR" H 9780 4300 50  0001 C CNN
+F 3 "" H 9780 4300 50  0000 C CNN
+	1    9780 4300
+	-1   0    0    1   
+$EndComp
+Text Label 2310 3880 0    60   ~ 0
+A3
+Text Label 10230 3630 0    60   ~ 0
+A3
+$Comp
+L CONN_01X01 P3
+U 1 1 5875302C
+P 9780 3630
+F 0 "P3" H 9780 3730 50  0000 C CNN
+F 1 "D" V 9880 3630 50  0000 C CNN
+F 2 "EasyLabs4Kids:BBC_CONNECTOR" H 9780 3630 50  0001 C CNN
+F 3 "" H 9780 3630 50  0000 C CNN
+	1    9780 3630
+	-1   0    0    1   
+$EndComp
+Text Label 4080 5830 0    60   ~ 0
+12V
+Text Label 5730 4930 0    60   ~ 0
+5V
+$Comp
+L GND #PWR04
+U 1 1 587546FD
+P 3940 5230
+F 0 "#PWR04" H 3940 4980 50  0001 C CNN
+F 1 "GND" H 3940 5080 50  0000 C CNN
+F 2 "" H 3940 5230 50  0000 C CNN
+F 3 "" H 3940 5230 50  0000 C CNN
+	1    3940 5230
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR05
+U 1 1 5875475F
+P 5880 5230
+F 0 "#PWR05" H 5880 4980 50  0001 C CNN
+F 1 "GND" H 5880 5080 50  0000 C CNN
+F 2 "" H 5880 5230 50  0000 C CNN
+F 3 "" H 5880 5230 50  0000 C CNN
+	1    5880 5230
+	1    0    0    -1  
+$EndComp
+Text Label 5730 5830 0    60   ~ 0
+5V
+Text Label 4080 4930 0    60   ~ 0
+5V
+Text Label 4080 5030 0    60   ~ 0
+1A
+Text Label 4080 5730 0    60   ~ 0
+2A
+Text Label 5730 5730 0    60   ~ 0
+3A
+Text Label 5730 5030 0    60   ~ 0
+4A
+Text Label 5270 6390 0    60   ~ 0
+1Y
+Text Label 5270 6290 0    60   ~ 0
+2Y
+Text Label 5270 6640 0    60   ~ 0
+3Y
+Text Label 5270 6740 0    60   ~ 0
+4Y
+Text Label 1560 1150 0    60   ~ 0
+12V
+Text Label 1560 1250 0    60   ~ 0
+GND
+Text Label 10230 4520 0    60   ~ 0
+SDA
+Text Label 10230 4730 0    60   ~ 0
+SCL
+Text Label 4080 5130 0    60   ~ 0
+1Y
+Text Label 4080 5630 0    60   ~ 0
+2Y
+Text Label 5730 5630 0    60   ~ 0
+3Y
+Text Label 5730 5130 0    60   ~ 0
+4Y
+$Comp
+L PWR_FLAG #FLG06
+U 1 1 58756C93
+P 6500 3240
+F 0 "#FLG06" H 6500 3335 50  0001 C CNN
+F 1 "PWR_FLAG" H 6500 3420 50  0000 C CNN
+F 2 "" H 6500 3240 50  0000 C CNN
+F 3 "" H 6500 3240 50  0000 C CNN
+	1    6500 3240
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG07
+U 1 1 58756DA5
+P 2210 2930
+F 0 "#FLG07" H 2210 3025 50  0001 C CNN
+F 1 "PWR_FLAG" H 2210 3110 50  0000 C CNN
+F 2 "" H 2210 2930 50  0000 C CNN
+F 3 "" H 2210 2930 50  0000 C CNN
+	1    2210 2930
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG08
+U 1 1 58757235
+P 2810 3280
+F 0 "#FLG08" H 2810 3375 50  0001 C CNN
+F 1 "PWR_FLAG" H 2810 3460 50  0000 C CNN
+F 2 "" H 2810 3280 50  0000 C CNN
+F 3 "" H 2810 3280 50  0000 C CNN
+	1    2810 3280
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1 C1
+U 1 1 5874A849
+P 7170 3490
+F 0 "C1" H 7195 3590 50  0000 L CNN
+F 1 "100uF" H 7195 3390 50  0000 L CNN
+F 2 "EasyLabs4Kids:C_0805_HandSoldering" H 7170 3490 50  0001 C CNN
+F 3 "" H 7170 3490 50  0000 C CNN
+	1    7170 3490
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR09
+U 1 1 5874AB0C
+P 7170 3740
+F 0 "#PWR09" H 7170 3490 50  0001 C CNN
+F 1 "GND" H 7170 3590 50  0000 C CNN
+F 2 "" H 7170 3740 50  0000 C CNN
+F 3 "" H 7170 3740 50  0000 C CNN
+	1    7170 3740
+	1    0    0    -1  
+$EndComp
+$Comp
+L AP1117 U5
+U 1 1 5874C704
+P 1730 1700
+F 0 "U5" H 1830 1450 50  0000 C CNN
+F 1 "AP1117" H 1730 1950 50  0000 C CNN
+F 2 "EasyLabs4Kids:SOT-223" H 1730 1350 50  0001 C CNN
+F 3 "" H 1830 1450 50  0000 C CNN
+	1    1730 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR010
+U 1 1 5874CE6E
+P 1730 2100
+F 0 "#PWR010" H 1730 1850 50  0001 C CNN
+F 1 "GND" H 1730 1950 50  0000 C CNN
+F 2 "" H 1730 2100 50  0000 C CNN
+F 3 "" H 1730 2100 50  0000 C CNN
+	1    1730 2100
+	1    0    0    -1  
+$EndComp
+Text Label 930  1700 0    60   ~ 0
+12V
+Text Label 2480 1700 0    60   ~ 0
+3V3_Reg
+$Comp
+L CP1 C2
+U 1 1 5874EBF0
+P 1230 1900
+F 0 "C2" H 1255 2000 50  0000 L CNN
+F 1 "10uF/16V" H 790 1780 50  0000 L CNN
+F 2 "EasyLabs4Kids:C_0805_HandSoldering" H 1230 1900 50  0001 C CNN
+F 3 "" H 1230 1900 50  0000 C CNN
+	1    1230 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1360 3380 710  3380
+Wire Wire Line
+	2060 3180 2360 3180
+Wire Wire Line
+	2060 3080 2360 3080
+Wire Wire Line
+	2060 3380 2360 3380
+Wire Wire Line
+	5850 3340 7170 3340
+Wire Wire Line
+	5850 3640 6150 3640
+Wire Wire Line
+	3950 3340 3700 3340
+Wire Wire Line
+	3950 3740 3950 3640
+Wire Wire Line
+	1360 3680 1110 3680
+Wire Wire Line
+	1360 3780 1110 3780
+Wire Wire Line
+	5850 3540 6300 3540
+Wire Wire Line
+	5850 3440 5950 3440
+Wire Wire Line
+	6250 3440 6650 3440
+Wire Wire Line
+	6650 3440 6650 3540
+Wire Wire Line
+	6650 3540 6600 3540
+Wire Wire Line
+	6300 3440 6300 3340
+Connection ~ 6300 3340
+Connection ~ 6300 3440
+Wire Wire Line
+	1710 6330 1960 6330
+Wire Wire Line
+	1710 6980 1960 6980
+Wire Wire Line
+	1710 7080 1960 7080
+Wire Wire Line
+	1710 7180 1960 7180
+Wire Wire Line
+	1710 6430 1960 6430
+Wire Wire Line
+	1710 6530 1960 6530
+Wire Wire Line
+	1360 3480 1110 3480
+Wire Wire Line
+	1110 3580 1360 3580
+Wire Wire Line
+	8530 3180 8780 3180
+Wire Wire Line
+	8530 3280 8780 3280
+Wire Wire Line
+	8530 3380 8780 3380
+Wire Wire Line
+	1360 4280 1110 4280
+Wire Wire Line
+	1110 3880 1360 3880
+Wire Wire Line
+	1360 4180 1110 4180
+Wire Wire Line
+	1360 3980 1110 3980
+Wire Wire Line
+	1110 4080 1360 4080
+Wire Wire Line
+	1360 4480 1110 4480
+Wire Wire Line
+	1110 4380 1360 4380
+Wire Wire Line
+	8680 3730 8530 3730
+Wire Wire Line
+	8530 3830 8680 3830
+Wire Wire Line
+	8530 3930 8680 3930
+Wire Wire Line
+	8530 4030 8680 4030
+Wire Wire Line
+	2060 3680 2310 3680
+Wire Wire Line
+	2060 3780 2310 3780
+Wire Wire Line
+	2060 3880 2310 3880
+Wire Wire Line
+	2060 3980 2310 3980
+Wire Wire Line
+	2060 4080 2310 4080
+Wire Wire Line
+	2060 4180 2310 4180
+Wire Wire Line
+	2120 5330 2270 5330
+Wire Wire Line
+	9980 3420 10230 3420
+Wire Wire Line
+	9980 3840 10230 3840
+Wire Wire Line
+	9980 4070 10230 4070
+Wire Wire Line
+	9980 4930 10230 4930
+Wire Wire Line
+	9980 3210 10230 3210
+Wire Wire Line
+	2060 3580 2310 3580
+Wire Wire Line
+	2060 3480 2310 3480
+Wire Wire Line
+	2060 4480 2360 4480
+Wire Wire Line
+	8680 4280 8530 4280
+Wire Wire Line
+	8530 4480 8680 4480
+Wire Wire Line
+	8530 4580 8680 4580
+Wire Wire Line
+	1360 3080 1110 3080
+Wire Wire Line
+	1110 3180 1360 3180
+Wire Wire Line
+	9980 4300 10230 4300
+Wire Wire Line
+	9980 3630 10230 3630
+Wire Wire Line
+	4430 5830 4080 5830
+Wire Wire Line
+	5480 4930 5730 4930
+Wire Wire Line
+	4430 5330 4330 5330
+Wire Wire Line
+	4330 5230 4330 5530
+Wire Wire Line
+	4330 5430 4430 5430
+Wire Wire Line
+	5480 5330 5580 5330
+Wire Wire Line
+	5580 5230 5580 5530
+Wire Wire Line
+	5580 5430 5480 5430
+Wire Wire Line
+	4430 4930 4080 4930
+Wire Wire Line
+	5480 5830 5730 5830
+Wire Wire Line
+	4080 5030 4430 5030
+Wire Wire Line
+	4080 5130 4430 5130
+Wire Wire Line
+	4430 5630 4080 5630
+Wire Wire Line
+	4080 5730 4430 5730
+Wire Wire Line
+	5480 5730 5730 5730
+Wire Wire Line
+	5480 5630 5730 5630
+Wire Wire Line
+	5480 5030 5730 5030
+Wire Wire Line
+	5480 5130 5730 5130
+Wire Wire Line
+	4970 6290 5270 6290
+Wire Wire Line
+	4970 6390 5270 6390
+Wire Wire Line
+	4970 6640 5270 6640
+Wire Wire Line
+	4970 6740 5270 6740
+Wire Wire Line
+	1260 1150 1560 1150
+Wire Wire Line
+	1260 1250 1560 1250
+Wire Wire Line
+	6500 3240 6500 3340
+Connection ~ 6500 3340
+Wire Wire Line
+	2210 2930 2210 3080
+Connection ~ 2210 3080
+Wire Wire Line
+	2210 3380 2210 3280
+Wire Wire Line
+	2210 3280 2810 3280
+Connection ~ 2210 3380
+Wire Wire Line
+	7910 5440 8130 5440
+Wire Wire Line
+	7910 5140 8120 5140
+Wire Wire Line
+	7910 5740 8130 5740
+Wire Wire Line
+	7170 3740 7170 3640
+Wire Wire Line
+	930  1700 1380 1700
+Wire Wire Line
+	1730 2000 1730 2100
+Wire Wire Line
+	2130 1700 2480 1700
+Wire Wire Line
+	1230 1750 1230 1700
+Connection ~ 1230 1700
+Wire Wire Line
+	1230 2050 1230 2100
+$Comp
+L GND #PWR011
+U 1 1 5874EF96
+P 1230 2100
+F 0 "#PWR011" H 1230 1850 50  0001 C CNN
+F 1 "GND" H 1230 1950 50  0000 C CNN
+F 2 "" H 1230 2100 50  0000 C CNN
+F 3 "" H 1230 2100 50  0000 C CNN
+	1    1230 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2060 4380 2360 4380
+Text Label 2360 4380 0    60   ~ 0
+3V3_ard
+$Comp
+L CONN_01X02 P14
+U 1 1 58753FF9
+P 3490 1360
+F 0 "P14" H 3490 1510 50  0000 C CNN
+F 1 "SolderJumper" V 3590 1360 50  0000 C CNN
+F 2 "EasyLabs4Kids:SolderJumper" H 3490 1360 50  0001 C CNN
+F 3 "" H 3490 1360 50  0000 C CNN
+	1    3490 1360
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_01X02 P15
+U 1 1 58754096
+P 3490 1860
+F 0 "P15" H 3490 2010 50  0000 C CNN
+F 1 "SolderJumper" V 3590 1860 50  0000 C CNN
+F 2 "EasyLabs4Kids:SolderJumper" H 3490 1860 50  0001 C CNN
+F 3 "" H 3490 1860 50  0000 C CNN
+	1    3490 1860
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3540 1160 4140 1160
+Wire Wire Line
+	3540 1660 3890 1660
+Wire Wire Line
+	3890 1660 3890 1160
+Connection ~ 3890 1160
+Wire Wire Line
+	3440 1160 3040 1160
+Wire Wire Line
+	3440 1660 3040 1660
+Text Label 3040 1660 0    60   ~ 0
+3V3_Reg
+Text Label 3040 1160 0    60   ~ 0
+3V3_ard
+Text Label 4140 1160 0    60   ~ 0
+3V3
+Text Notes 4150 1970 0    60   ~ 0
+Note:\n3V3 from nano will not be able to supply\nenough current to run esp, and will result in resets.\nAdded a 1117 regulator to get 3v3 from 12v. \nSolder jumper gives you options to select the 3v3 source.\nSOLDER ONLY ONE JUMPER.
+Text Notes 2230 790  0    118  ~ 24
+Power Supply
+Text Notes 1170 2570 0    118  ~ 24
+Arduino Nano
+Text Notes 4520 2970 0    118  ~ 24
+ESP-01
+Text Notes 1090 5980 0    118  ~ 24
+Line Sensor
+Text Notes 4450 4710 0    118  ~ 24
+Motor Driver
+Text Notes 9460 2860 0    118  ~ 24
+BBC Connector
+Text Notes 8280 2860 0    118  ~ 24
+In/Out
+$Comp
+L GND #PWR012
+U 1 1 59BC0DF6
+P 2270 5330
+F 0 "#PWR012" H 2270 5080 50  0001 C CNN
+F 1 "GND" H 2270 5180 50  0000 C CNN
+F 2 "" H 2270 5330 50  0000 C CNN
+F 3 "" H 2270 5330 50  0000 C CNN
+	1    2270 5330
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1370 5330 1520 5330
+Wire Wire Line
+	1070 5330 860  5330
+Wire Wire Line
+	1450 5330 1450 5090
+Wire Wire Line
+	1450 5090 1270 5090
+Connection ~ 1450 5330
+Text Notes 9880 1810 0    60   ~ 0
+Analog\n0: Red LED\n1: Line sensor Left\n2: bbc IO\n3: bbc IO\n4: SDA bbc io\n5: SCL bbc io\n6: bbc io\n7: bbc io
+Wire Notes Line
+	8310 650  8310 2590
+Wire Notes Line
+	8310 2590 10930 2590
+Wire Notes Line
+	10930 2590 10930 650 
+Wire Notes Line
+	10930 650  8310 650 
+Wire Notes Line
+	4070 1340 4070 2000
+Wire Notes Line
+	4070 2000 6870 2000
+Wire Notes Line
+	6870 2000 6870 1340
+Wire Notes Line
+	6870 1340 4070 1340
+Text Notes 8300 4880 0    118  ~ 24
+LEDs
+$Comp
+L C C3
+U 1 1 59BCA0E0
+P 6860 3550
+F 0 "C3" H 6885 3650 50  0000 L CNN
+F 1 "10uF" H 6885 3450 50  0000 L CNN
+F 2 "EasyLabs4Kids:C_0805_HandSoldering" H 6898 3400 50  0001 C CNN
+F 3 "" H 6860 3550 50  0001 C CNN
+	1    6860 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6860 3400 6860 3340
+Connection ~ 6860 3340
+$Comp
+L GND #PWR013
+U 1 1 59BCA3EA
+P 6860 3750
+F 0 "#PWR013" H 6860 3500 50  0001 C CNN
+F 1 "GND" H 6860 3600 50  0000 C CNN
+F 2 "" H 6860 3750 50  0000 C CNN
+F 3 "" H 6860 3750 50  0000 C CNN
+	1    6860 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6860 3700 6860 3750
+$Comp
+L CONN_01X02 P13
+U 1 1 59BD060B
+P 1060 1200
+F 0 "P13" H 1060 1350 50  0000 C CNN
+F 1 "PWR IN" V 1160 1200 50  0000 C CNN
+F 2 "EasyLabs4Kids:mkds_1,5-2" H 1060 1200 50  0001 C CNN
+F 3 "" H 1060 1200 50  0000 C CNN
+	1    1060 1200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_01X01 P16
+U 1 1 59BD37FB
+P 9780 4520
+F 0 "P16" H 9780 4620 50  0000 C CNN
+F 1 "D" V 9880 4520 50  0000 C CNN
+F 2 "EasyLabs4Kids:BBC_CONNECTOR" H 9780 4520 50  0001 C CNN
+F 3 "" H 9780 4520 50  0000 C CNN
+	1    9780 4520
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X01 P17
+U 1 1 59BD390D
+P 9780 4730
+F 0 "P17" H 9780 4830 50  0000 C CNN
+F 1 "D" V 9880 4730 50  0000 C CNN
+F 2 "EasyLabs4Kids:BBC_CONNECTOR" H 9780 4730 50  0001 C CNN
+F 3 "" H 9780 4730 50  0000 C CNN
+	1    9780 4730
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9980 4520 10230 4520
+Wire Wire Line
+	9980 4730 10230 4730
+$Comp
+L L293D_SMD U4
+U 1 1 59BCFC37
+P 4980 5330
+F 0 "U4" H 4980 5830 60  0000 C CNN
+F 1 "L293D_SMD" H 4980 4730 60  0000 C CNN
+F 2 "EasyLabs4Kids:SOIC-20_7.5x12.8mm_Pitch1.27mm" H 4980 4880 60  0001 C CNN
+F 3 "" H 4980 4880 60  0001 C CNN
+	1    4980 5330
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3940 5230 4430 5230
+Connection ~ 4330 5330
+Wire Wire Line
+	4330 5530 4430 5530
+Connection ~ 4330 5430
+Connection ~ 4330 5230
+Wire Wire Line
+	5480 5230 5880 5230
+Wire Wire Line
+	5580 5530 5480 5530
+Connection ~ 5580 5430
+Connection ~ 5580 5230
+Connection ~ 5580 5330
+Wire Wire Line
+	2130 1800 2200 1800
+Wire Wire Line
+	2200 1800 2200 1700
+Connection ~ 2200 1700
+Wire Wire Line
+	8520 5140 8620 5140
+Wire Wire Line
+	8530 5440 8620 5440
+Wire Wire Line
+	8530 5740 8630 5740
+Wire Wire Line
+	8920 5140 9050 5140
+Wire Wire Line
+	9050 5140 9050 5960
+Wire Wire Line
+	8930 5740 9050 5740
+Connection ~ 9050 5740
+Wire Wire Line
+	8920 5440 9050 5440
+Connection ~ 9050 5440
+$EndSCHEMATC

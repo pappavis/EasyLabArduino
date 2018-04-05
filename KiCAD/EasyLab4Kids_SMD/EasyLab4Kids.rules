@@ -1,0 +1,114 @@
+
+(rules PCB EasyLab4Kids
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 880)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.3)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.8)
+    )
+  )
+  (rule
+    (width 250.0)
+    (clear 200.2)
+    (clear 125.0 (type smd_to_turn_gap))
+    (clear 50.0 (type smd_smd))
+  )
+  (padstack "Via[0-1]_600:400_um"
+    (shape
+      (circle F.Cu 600.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 600.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_600:400_um" "Via[0-1]_600:400_um" default
+  )
+  (via 
+    "Via[0-1]_600:400_um-kicad_default" "Via[0-1]_600:400_um" "kicad_default"
+  )
+  (via 
+    "Via[0-1]_600:400_um-12v" "Via[0-1]_600:400_um" 12v
+  )
+  (via 
+    "Via[0-1]_600:400_um-Motor" "Via[0-1]_600:400_um" Motor
+  )
+  (via_rule
+    default "Via[0-1]_600:400_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_600:400_um-kicad_default"
+  )
+  (via_rule
+    12v "Via[0-1]_600:400_um-12v"
+  )
+  (via_rule
+    Motor "Via[0-1]_600:400_um-Motor"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    /Red /Green /Blue /D1 /D0 "Net-(J1-Pad3)" /SW /1A
+    "/LF_L" /2A /3A "/LF_R" /4A /Servo /TX /RX
+    /GroveIO /3V3 "Net-(J1-Pad18)" /A3 /SDA /SCL /A6 /A7
+    /5V "Net-(J1-Pad28)" "Net-(P10-Pad2)" "Net-(R5-Pad2)" "Net-(R6-Pad2)" "Net-(U3-Pad4)" "Net-(U3-Pad6)" "Net-(D1-Pad2)"
+    "Net-(D2-Pad2)" "Net-(D3-Pad2)" /D8 "/3V3_ard" "/3V3_Reg"
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class 12v
+    GND /12V
+    (clearance_class 12v)
+    (via_rule 12v)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class Motor
+    /1Y /2Y /3Y /4Y
+    (clearance_class Motor)
+    (via_rule Motor)
+    (rule
+      (width 300.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)

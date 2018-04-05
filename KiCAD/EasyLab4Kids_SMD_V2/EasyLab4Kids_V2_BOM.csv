@@ -1,0 +1,47 @@
+Title,EasyLab4Kids_V2
+Revision,
+Date,2018-01-13
+Generated,13-1-2018 22:47:05
+Company,
+Comment 1,https://www.fiverr.com/users/hemalchevli/
+Comment 2,Drawn By: Hemal Chevli
+Comment 3,
+Comment 4,
+Total Parts,30
+Total Unique Parts,26
+
+
+
+Ref,Qty,Value,Footprint,
+C2 C3 ,2,C,EasyLabs4Kids:C_0805_HandSoldering
+C1 ,1,10uF/16V,EasyLabs4Kids:C_0805_HandSoldering
+D1 ,1,LED,EasyLabs4Kids:LED-5MM
+J1 ,1,Arduino_Nano_Header,EasyLabs4Kids:arduino_nano_header
+P1 ,1,PWR,EasyLabs4Kids:mkds_1,5-2
+P9 ,1,A,EasyLabs4Kids:BBC_CONNECTOR
+P10 ,1,D,EasyLabs4Kids:BBC_CONNECTOR
+P11 ,1,5V,EasyLabs4Kids:BBC_CONNECTOR
+P15 ,1,GND,EasyLabs4Kids:Makey_conn_3.2mm
+P16 ,1,SERVO,EasyLabs4Kids:Pin_Header_Straight_1x03
+P14 ,1,KY-038,EasyLabs4Kids:Pin_Header_Straight_1x04
+P12 ,1,GROVE,EasyLabs4Kids:grove_1x04
+P2 ,1,KY-033_L,EasyLabs4Kids:Pin_Header_Straight_1x03
+P3 ,1,KY_033_R,EasyLabs4Kids:Pin_Header_Straight_1x03
+P6 ,1,MPU6050,EasyLabs4Kids:MPU-6050
+P8 P7 ,2,SolderJumper,EasyLabs4Kids:SolderJumper
+P4 ,1,M1,EasyLabs4Kids:mkds_1,5-2
+P5 ,1,M2,EasyLabs4Kids:mkds_1,5-2
+R1 ,1,330,Resistors_SMD:R_1206_HandSoldering
+R3 R4 R2 ,3,R,Resistors_SMD:R_1206_HandSoldering
+SP1 ,1,Buzzer,EasyLabs4Kids:Buzzer_12x9.5RM7.6
+SW1 ,1,Button,EasyLabs4Kids:PCB_PUSH_edit
+U4 ,1,ESP-01v090,EasyLabs4Kids:ESP-01_SilkScreen
+U3 ,1,HC-SR04,EasyLabs4Kids:Pin_Header_Straight_1x04
+U1 ,1,L293D_SMD,EasyLabs4Kids:SOIC-20_7.5x12.8mm_Pitch1.27mm
+U2 ,1,AP1117,TO_SOT_Packages_SMD:SOT-223
+
+
+
+
+BOM made with KICAD_BOM_WIZARD (https://github.com/HashDefineElectronics/KiCad_BOM_Wizard.git)
+Generated 13-1-2018 22:47:05

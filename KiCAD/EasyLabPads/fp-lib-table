@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name EasyLab4KidsFootprint)(type KiCad)(uri "$(KIPRJMOD)/Footprints")(options "")(descr ""))
+  (lib (name w_pth_resistors)(type KiCad)(uri "/Users/michiele/Dropbox (Persoonlijk)/michiele/Aruino/PCB Ontwerp/KiCAD/share/kicad/footprints/w_pth_resistors.pretty")(options "")(descr ""))
+)

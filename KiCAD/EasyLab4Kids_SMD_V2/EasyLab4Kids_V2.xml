@@ -1,0 +1,763 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>B:/Dropbox en Onedrive/Dropbox (Persoonlijk)/michiele/Aruino/PCB Ontwerp/KiCAD/projecten/Ander/EasyLab4Kids/EasyLab/KiCAD/EasyLabArduino/EasyLab4Kids_SMD_V2/EasyLab4Kids_V2.sch</source>
+    <date>13-1-2018 22:47:05</date>
+    <tool>Eeschema 4.0.4-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>EasyLab4Kids_V2</title>
+        <company/>
+        <rev/>
+        <date>2018-01-13</date>
+        <source>EasyLab4Kids_V2.sch</source>
+        <comment number="1" value="https://www.fiverr.com/users/hemalchevli/"/>
+        <comment number="2" value="Drawn By: Hemal Chevli"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>Arduino_Nano_Header</value>
+      <footprint>EasyLabs4Kids:arduino_nano_header</footprint>
+      <libsource lib="EasyLab4Kids_V2-cache" part="Arduino_Nano_Header"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A35199D</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>PWR</value>
+      <footprint>EasyLabs4Kids:mkds_1,5-2</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A351E5C</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>ESP-01v090</value>
+      <footprint>EasyLabs4Kids:ESP-01_SilkScreen</footprint>
+      <libsource lib="EasyLab4Kids_V2-cache" part="ESP-01v090"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A35209C</tstamp>
+    </comp>
+    <comp ref="P9">
+      <value>A</value>
+      <footprint>EasyLabs4Kids:BBC_CONNECTOR</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A3523ED</tstamp>
+    </comp>
+    <comp ref="P10">
+      <value>D</value>
+      <footprint>EasyLabs4Kids:BBC_CONNECTOR</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A352459</tstamp>
+    </comp>
+    <comp ref="P11">
+      <value>5V</value>
+      <footprint>EasyLabs4Kids:BBC_CONNECTOR</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A352490</tstamp>
+    </comp>
+    <comp ref="P15">
+      <value>GND</value>
+      <footprint>EasyLabs4Kids:Makey_conn_3.2mm</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A35274D</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>EasyLabs4Kids:LED-5MM</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A35278E</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>330</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A3527DB</tstamp>
+    </comp>
+    <comp ref="SP1">
+      <value>Buzzer</value>
+      <footprint>EasyLabs4Kids:Buzzer_12x9.5RM7.6</footprint>
+      <libsource lib="device" part="SPEAKER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A352906</tstamp>
+    </comp>
+    <comp ref="P16">
+      <value>SERVO</value>
+      <footprint>EasyLabs4Kids:Pin_Header_Straight_1x03</footprint>
+      <libsource lib="conn" part="CONN_01X03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A352A0D</tstamp>
+    </comp>
+    <comp ref="P14">
+      <value>KY-038</value>
+      <footprint>EasyLabs4Kids:Pin_Header_Straight_1x04</footprint>
+      <libsource lib="conn" part="CONN_01X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A352A61</tstamp>
+    </comp>
+    <comp ref="P12">
+      <value>GROVE</value>
+      <footprint>EasyLabs4Kids:grove_1x04</footprint>
+      <libsource lib="conn" part="CONN_01X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A352D7E</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>KY-033_L</value>
+      <footprint>EasyLabs4Kids:Pin_Header_Straight_1x03</footprint>
+      <libsource lib="conn" part="CONN_01X03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A3532B1</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>KY_033_R</value>
+      <footprint>EasyLabs4Kids:Pin_Header_Straight_1x03</footprint>
+      <libsource lib="conn" part="CONN_01X03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A3533FF</tstamp>
+    </comp>
+    <comp ref="P6">
+      <value>MPU6050</value>
+      <footprint>EasyLabs4Kids:MPU-6050</footprint>
+      <libsource lib="conn" part="CONN_01X08"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A3535F1</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>Button</value>
+      <footprint>EasyLabs4Kids:PCB_PUSH_edit</footprint>
+      <libsource lib="device" part="SW_PUSH_SMALL_H"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A353DB4</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>R</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A3A91F7</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>R</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A3A9539</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>C</value>
+      <footprint>EasyLabs4Kids:C_0805_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A3A9750</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>C</value>
+      <footprint>EasyLabs4Kids:C_0805_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A3A97C0</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>HC-SR04</value>
+      <footprint>EasyLabs4Kids:Pin_Header_Straight_1x04</footprint>
+      <libsource lib="EasyLab4Kids_V2-cache" part="HC-SR04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A3AC702</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>R</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A3AE5C1</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>L293D_SMD</value>
+      <footprint>EasyLabs4Kids:SOIC-20_7.5x12.8mm_Pitch1.27mm</footprint>
+      <libsource lib="EasyLab4Kids_V2-cache" part="L293D_SMD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A3B0104</tstamp>
+    </comp>
+    <comp ref="P8">
+      <value>SolderJumper</value>
+      <footprint>EasyLabs4Kids:SolderJumper</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A3B8DA0</tstamp>
+    </comp>
+    <comp ref="P7">
+      <value>SolderJumper</value>
+      <footprint>EasyLabs4Kids:SolderJumper</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A3B8EB2</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10uF/16V</value>
+      <footprint>EasyLabs4Kids:C_0805_HandSoldering</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A3B9BDF</tstamp>
+    </comp>
+    <comp ref="P4">
+      <value>M1</value>
+      <footprint>EasyLabs4Kids:mkds_1,5-2</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A3C8B1B</tstamp>
+    </comp>
+    <comp ref="P5">
+      <value>M2</value>
+      <footprint>EasyLabs4Kids:mkds_1,5-2</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A3C8BD8</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>AP1117</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-223</footprint>
+      <libsource lib="EasyLab4Kids_V2-cache" part="AP1117"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A420E44</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="EasyLab4Kids_V2-cache" part="AP1117">
+      <aliases>
+        <alias>AP111715</alias>
+        <alias>AP111718</alias>
+        <alias>AP111725</alias>
+        <alias>AP111733</alias>
+        <alias>AP111750</alias>
+      </aliases>
+      <footprints>
+        <fp>SOT-223*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AP1117</field>
+        <field name="Footprint">TO_SOT_Packages_SMD:SOT-223</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND/ADJ" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+        <pin num="4" name="VO" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="EasyLab4Kids_V2-cache" part="Arduino_Nano_Header">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Arduino_Nano_Header</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D1/TX" type="passive"/>
+        <pin num="2" name="D0/RX" type="passive"/>
+        <pin num="3" name="RESET" type="passive"/>
+        <pin num="4" name="GND" type="passive"/>
+        <pin num="5" name="D2/INT0" type="passive"/>
+        <pin num="6" name="D3/INT1" type="passive"/>
+        <pin num="7" name="D4/T0" type="passive"/>
+        <pin num="8" name="D5/T1" type="passive"/>
+        <pin num="9" name="D6/AIN0" type="passive"/>
+        <pin num="10" name="D7/AIN1" type="passive"/>
+        <pin num="11" name="D8/ICP" type="passive"/>
+        <pin num="12" name="D9/0C1" type="passive"/>
+        <pin num="13" name="D10/SS" type="passive"/>
+        <pin num="14" name="D11/MOSI" type="passive"/>
+        <pin num="15" name="D12/MISO" type="passive"/>
+        <pin num="16" name="SCK/D13" type="passive"/>
+        <pin num="17" name="3V3" type="passive"/>
+        <pin num="18" name="AREF" type="passive"/>
+        <pin num="19" name="A0" type="passive"/>
+        <pin num="20" name="A1" type="passive"/>
+        <pin num="21" name="A2" type="passive"/>
+        <pin num="22" name="A3" type="passive"/>
+        <pin num="23" name="A4" type="passive"/>
+        <pin num="24" name="A5" type="passive"/>
+        <pin num="25" name="A6" type="passive"/>
+        <pin num="26" name="A7" type="passive"/>
+        <pin num="27" name="5V" type="passive"/>
+        <pin num="28" name="RESET" type="passive"/>
+        <pin num="29" name="GND" type="passive"/>
+        <pin num="30" name="VIN" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X01">
+      <description>Connector, single row, 01x01</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X01</fp>
+        <fp>Pin_Header_Angled_1X01</fp>
+        <fp>Socket_Strip_Straight_1X01</fp>
+        <fp>Socket_Strip_Angled_1X01</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X01</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X02">
+      <description>Connector, single row, 01x02</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X02</fp>
+        <fp>Pin_Header_Angled_1X02</fp>
+        <fp>Socket_Strip_Straight_1X02</fp>
+        <fp>Socket_Strip_Angled_1X02</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X03">
+      <description>Connector, single row, 01x03</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X03</fp>
+        <fp>Pin_Header_Angled_1X03</fp>
+        <fp>Socket_Strip_Straight_1X03</fp>
+        <fp>Socket_Strip_Angled_1X03</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X04">
+      <description>Connector, single row, 01x04</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X04</fp>
+        <fp>Pin_Header_Angled_1X04</fp>
+        <fp>Socket_Strip_Straight_1X04</fp>
+        <fp>Socket_Strip_Angled_1X04</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X08">
+      <description>Connector, single row, 01x08</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X08</fp>
+        <fp>Pin_Header_Angled_1X08</fp>
+        <fp>Socket_Strip_Straight_1X08</fp>
+        <fp>Socket_Strip_Angled_1X08</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X08</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="CP">
+      <description>Polarised capacitor</description>
+      <footprints>
+        <fp>CP*</fp>
+        <fp>C_Axial*</fp>
+        <fp>C_Radial*</fp>
+        <fp>TantalC*</fp>
+        <fp>C*elec</fp>
+        <fp>c_elec*</fp>
+        <fp>SMD*_Pol</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="EasyLab4Kids_V2-cache" part="ESP-01v090">
+      <footprints>
+        <fp>ESP-01*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ESP-01v090</field>
+      </fields>
+      <pins>
+        <pin num="1" name="UTXD" type="output"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="CH_PD" type="input"/>
+        <pin num="4" name="GPIO2" type="3state"/>
+        <pin num="5" name="RST" type="input"/>
+        <pin num="6" name="GPIO0" type="3state"/>
+        <pin num="7" name="VCC" type="power_in"/>
+        <pin num="8" name="URXD" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="EasyLab4Kids_V2-cache" part="HC-SR04">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">HC-SR04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="power_in"/>
+        <pin num="2" name="TRIG" type="BiDi"/>
+        <pin num="3" name="ECHO" type="BiDi"/>
+        <pin num="4" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="EasyLab4Kids_V2-cache" part="L293D_SMD">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">L293D_SMD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1,2EN" type="input"/>
+        <pin num="2" name="1A" type="input"/>
+        <pin num="3" name="1Y" type="output"/>
+        <pin num="4" name="GND" type="power_out"/>
+        <pin num="5" name="GND_1" type="power_in"/>
+        <pin num="6" name="GND_2" type="power_in"/>
+        <pin num="7" name="GND_3" type="input"/>
+        <pin num="8" name="2Y" type="output"/>
+        <pin num="9" name="2A" type="input"/>
+        <pin num="10" name="V_M" type="power_in"/>
+        <pin num="11" name="3,4EN" type="input"/>
+        <pin num="12" name="3A" type="input"/>
+        <pin num="13" name="3Y" type="output"/>
+        <pin num="14" name="GND_4" type="input"/>
+        <pin num="15" name="GND_5" type="input"/>
+        <pin num="16" name="GND_6" type="power_in"/>
+        <pin num="17" name="GND_7" type="power_in"/>
+        <pin num="18" name="4Y" type="output"/>
+        <pin num="19" name="4A" type="input"/>
+        <pin num="20" name="5V" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="LED">
+      <footprints>
+        <fp>LED-*</fp>
+        <fp>LED_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="SPEAKER">
+      <description>Audio speaker, 2 pins, generic symbol</description>
+      <fields>
+        <field name="Reference">SP</field>
+        <field name="Value">SPEAKER</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="SW_PUSH_SMALL_H">
+      <description>Button</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_PUSH_SMALL_H</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>C:\Program Files\KiCad\share\kicad\library\conn.lib</uri>
+    </library>
+    <library logical="EasyLab4Kids_V2-cache">
+      <uri>B:\Dropbox en Onedrive\Dropbox (Persoonlijk)\michiele\Aruino\PCB Ontwerp\KiCAD\projecten\Ander\EasyLab4Kids\EasyLab\KiCAD\EasyLabArduino\EasyLab4Kids_SMD_V2\EasyLab4Kids_V2-cache.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/5V">
+      <node ref="P11" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="U1" pin="1"/>
+      <node ref="U1" pin="20"/>
+      <node ref="U1" pin="11"/>
+      <node ref="U3" pin="1"/>
+      <node ref="J1" pin="27"/>
+      <node ref="P16" pin="2"/>
+      <node ref="P14" pin="2"/>
+      <node ref="P12" pin="3"/>
+      <node ref="P2" pin="2"/>
+      <node ref="P3" pin="2"/>
+      <node ref="P6" pin="1"/>
+    </net>
+    <net code="2" name="/12V">
+      <node ref="U2" pin="3"/>
+      <node ref="C1" pin="1"/>
+      <node ref="U1" pin="10"/>
+      <node ref="J1" pin="30"/>
+      <node ref="P1" pin="1"/>
+    </net>
+    <net code="3" name="Net-(R3-Pad2)">
+      <node ref="R3" pin="2"/>
+      <node ref="U4" pin="5"/>
+    </net>
+    <net code="4" name="/ARD_RX">
+      <node ref="U4" pin="1"/>
+      <node ref="J1" pin="19"/>
+    </net>
+    <net code="5" name="/ARD_TX">
+      <node ref="J1" pin="20"/>
+      <node ref="U4" pin="8"/>
+    </net>
+    <net code="6" name="/SERVO">
+      <node ref="J1" pin="12"/>
+      <node ref="P16" pin="1"/>
+    </net>
+    <net code="7" name="/2Y">
+      <node ref="U1" pin="8"/>
+      <node ref="P4" pin="2"/>
+    </net>
+    <net code="8" name="/4Y">
+      <node ref="P5" pin="2"/>
+      <node ref="U1" pin="18"/>
+    </net>
+    <net code="9" name="/3Y">
+      <node ref="P5" pin="1"/>
+      <node ref="U1" pin="13"/>
+    </net>
+    <net code="10" name="/1Y">
+      <node ref="U1" pin="3"/>
+      <node ref="P4" pin="1"/>
+    </net>
+    <net code="11" name="Net-(D1-Pad2)">
+      <node ref="R1" pin="1"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="12" name="Net-(R4-Pad2)">
+      <node ref="R4" pin="2"/>
+      <node ref="U4" pin="3"/>
+    </net>
+    <net code="13" name="/3V3">
+      <node ref="R3" pin="1"/>
+      <node ref="P7" pin="1"/>
+      <node ref="P8" pin="1"/>
+      <node ref="U4" pin="7"/>
+      <node ref="R4" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C3" pin="1"/>
+    </net>
+    <net code="14" name="/SDA">
+      <node ref="J1" pin="23"/>
+      <node ref="P6" pin="4"/>
+    </net>
+    <net code="15" name="/ANALOG_SOUND">
+      <node ref="J1" pin="26"/>
+      <node ref="P14" pin="4"/>
+    </net>
+    <net code="16" name="/BBC_DIGITAL">
+      <node ref="P10" pin="1"/>
+      <node ref="J1" pin="6"/>
+    </net>
+    <net code="17" name="/BBC_ANALOG">
+      <node ref="P9" pin="1"/>
+      <node ref="J1" pin="25"/>
+    </net>
+    <net code="18" name="/LED">
+      <node ref="R1" pin="2"/>
+      <node ref="J1" pin="8"/>
+    </net>
+    <net code="19" name="/BUZZER">
+      <node ref="J1" pin="22"/>
+      <node ref="SP1" pin="1"/>
+    </net>
+    <net code="20" name="/SWITCH">
+      <node ref="J1" pin="5"/>
+      <node ref="R2" pin="2"/>
+      <node ref="SW1" pin="1"/>
+    </net>
+    <net code="21" name="/SCL">
+      <node ref="P6" pin="3"/>
+      <node ref="J1" pin="24"/>
+    </net>
+    <net code="22" name="/LF_R">
+      <node ref="P3" pin="1"/>
+      <node ref="J1" pin="21"/>
+    </net>
+    <net code="23" name="/LF_L">
+      <node ref="P2" pin="1"/>
+      <node ref="J1" pin="9"/>
+    </net>
+    <net code="24" name="Net-(P6-Pad8)">
+      <node ref="P6" pin="8"/>
+    </net>
+    <net code="25" name="Net-(P6-Pad7)">
+      <node ref="P6" pin="7"/>
+    </net>
+    <net code="26" name="Net-(P6-Pad6)">
+      <node ref="P6" pin="6"/>
+    </net>
+    <net code="27" name="Net-(P6-Pad5)">
+      <node ref="P6" pin="5"/>
+    </net>
+    <net code="28" name="/DIGITAL_SOUND">
+      <node ref="J1" pin="7"/>
+      <node ref="P14" pin="1"/>
+    </net>
+    <net code="29" name="/TRIG">
+      <node ref="J1" pin="11"/>
+      <node ref="U3" pin="2"/>
+    </net>
+    <net code="30" name="/GroveIO2">
+      <node ref="P12" pin="2"/>
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="31" name="Net-(J1-Pad18)">
+      <node ref="J1" pin="18"/>
+    </net>
+    <net code="32" name="Net-(J1-Pad3)">
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="33" name="/GroveIO1">
+      <node ref="P12" pin="1"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="34" name="/ECHO">
+      <node ref="J1" pin="10"/>
+      <node ref="U3" pin="3"/>
+    </net>
+    <net code="35" name="GND">
+      <node ref="U1" pin="5"/>
+      <node ref="J1" pin="29"/>
+      <node ref="P1" pin="2"/>
+      <node ref="U1" pin="4"/>
+      <node ref="U1" pin="6"/>
+      <node ref="U4" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="U3" pin="4"/>
+      <node ref="U1" pin="7"/>
+      <node ref="U1" pin="14"/>
+      <node ref="U1" pin="15"/>
+      <node ref="U1" pin="16"/>
+      <node ref="U1" pin="17"/>
+      <node ref="P2" pin="3"/>
+      <node ref="P3" pin="3"/>
+      <node ref="P6" pin="2"/>
+      <node ref="P12" pin="4"/>
+      <node ref="U2" pin="1"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="P14" pin="3"/>
+      <node ref="J1" pin="4"/>
+      <node ref="D1" pin="1"/>
+      <node ref="P15" pin="1"/>
+      <node ref="P16" pin="3"/>
+      <node ref="SP1" pin="2"/>
+    </net>
+    <net code="36" name="/3V3_ARD">
+      <node ref="J1" pin="17"/>
+      <node ref="P8" pin="2"/>
+    </net>
+    <net code="37" name="/3V3_REG">
+      <node ref="P7" pin="2"/>
+      <node ref="U2" pin="2"/>
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="38" name="/3A">
+      <node ref="U1" pin="12"/>
+      <node ref="J1" pin="15"/>
+    </net>
+    <net code="39" name="/4A">
+      <node ref="J1" pin="16"/>
+      <node ref="U1" pin="19"/>
+    </net>
+    <net code="40" name="/2A">
+      <node ref="U1" pin="9"/>
+      <node ref="J1" pin="14"/>
+    </net>
+    <net code="41" name="/1A">
+      <node ref="U1" pin="2"/>
+      <node ref="J1" pin="13"/>
+    </net>
+    <net code="42" name="Net-(U4-Pad4)">
+      <node ref="U4" pin="4"/>
+    </net>
+    <net code="43" name="Net-(U4-Pad6)">
+      <node ref="U4" pin="6"/>
+    </net>
+    <net code="44" name="Net-(J1-Pad28)">
+      <node ref="J1" pin="28"/>
+    </net>
+  </nets>
+</export>

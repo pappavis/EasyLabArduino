@@ -1,0 +1,150 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:EasyPads-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CONN_01X04 P1
+U 1 1 58C3CFD5
+P 3500 2700
+F 0 "P1" H 3500 2950 50  0000 C CNN
+F 1 "Angled" V 3600 2700 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04" H 3500 2700 50  0001 C CNN
+F 3 "" H 3500 2700 50  0000 C CNN
+	1    3500 2700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_01X01 P3
+U 1 1 58C3D034
+P 5000 2250
+F 0 "P3" H 5000 2350 50  0000 C CNN
+F 1 "CONN_01X01" V 5100 2250 50  0000 C CNN
+F 2 "w_conn_misc:z_BBC-BIT" H 5000 2250 50  0001 C CNN
+F 3 "" H 5000 2250 50  0000 C CNN
+	1    5000 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X01 P4
+U 1 1 58C3D05D
+P 5000 2600
+F 0 "P4" H 5000 2700 50  0000 C CNN
+F 1 "CONN_01X01" V 5100 2600 50  0000 C CNN
+F 2 "w_conn_misc:z_BBC-BIT" H 5000 2600 50  0001 C CNN
+F 3 "" H 5000 2600 50  0000 C CNN
+	1    5000 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X01 P5
+U 1 1 58C3D082
+P 5000 2850
+F 0 "P5" H 5000 2950 50  0000 C CNN
+F 1 "CONN_01X01" V 5100 2850 50  0000 C CNN
+F 2 "w_conn_misc:z_BBC-BIT" H 5000 2850 50  0001 C CNN
+F 3 "" H 5000 2850 50  0000 C CNN
+	1    5000 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X01 P6
+U 1 1 58C3D0A8
+P 5000 3150
+F 0 "P6" H 5000 3250 50  0000 C CNN
+F 1 "CONN_01X01" V 5100 3150 50  0000 C CNN
+F 2 "w_conn_misc:z_BBC-BIT" H 5000 3150 50  0001 C CNN
+F 3 "" H 5000 3150 50  0000 C CNN
+	1    5000 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X04 P2
+U 1 1 58C866EA
+P 3500 3600
+F 0 "P2" H 3500 3850 50  0000 C CNN
+F 1 "Grove" V 3600 3600 50  0000 C CNN
+F 2 "w_conn_misc:grove_1x04" H 3500 3600 50  0001 C CNN
+F 3 "" H 3500 3600 50  0000 C CNN
+	1    3500 3600
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 2250 3700 2250
+Wire Wire Line
+	3700 2250 3700 2550
+Wire Wire Line
+	4800 2600 3700 2600
+Wire Wire Line
+	3700 2600 3700 2650
+Wire Wire Line
+	4800 2850 3900 2850
+Wire Wire Line
+	3900 2850 3900 2750
+Wire Wire Line
+	3900 2750 3700 2750
+Wire Wire Line
+	3700 3150 4800 3150
+Wire Wire Line
+	3700 3150 3700 2850
+Wire Wire Line
+	3700 3450 4050 3450
+Wire Wire Line
+	4050 3450 4050 2250
+Connection ~ 4050 2250
+Wire Wire Line
+	4150 2600 4150 3550
+Wire Wire Line
+	4150 3550 3700 3550
+Connection ~ 4150 2600
+Wire Wire Line
+	4250 2850 4250 3650
+Wire Wire Line
+	4250 3650 3700 3650
+Connection ~ 4250 2850
+Wire Wire Line
+	4400 3150 4400 3750
+Wire Wire Line
+	4400 3750 3700 3750
+Connection ~ 4400 3150
+$EndSCHEMATC
