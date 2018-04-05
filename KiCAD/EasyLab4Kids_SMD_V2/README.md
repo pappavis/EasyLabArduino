@@ -14,7 +14,7 @@ Verbeterde  Arduino versie;<br/>
  - Ontwerp en spesifikasies -- Michiel Erasmus<br/>
 <br/>
 <br/>
-<img src="https://github.com/pappavis/EasyLab/blob/master/KiCAD/EasyLabArduino/EasyLab4Kids_SMD_V2/Images/top.jpg?raw=true" width="40%" height="40%">
+<img src="https://github.com/pappavis/EasyLabArduino/blob/master/KiCAD/EasyLab4Kids_SMD_V2/Images/3dview.png" width="40%" height="40%">
 <br/>
 EasyLab v2 met MPU-6050 sensor.
 <img src="https://github.com/pappavis/EasyLab/blob/master/KiCAD/EasyLabArduino/EasyLab4Kids_SMD_V2/Images/3dview.png" width="40%" height="40%"/>
